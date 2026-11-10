@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Restaurante Sorelle</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+
+<style>
+
+body{
+margin:0;
+font-family:'Poppins', sans-serif;
+background:#F4F4F4;
+color:#1E1E1E;
+}
+
+/* HERO */
+
+.hero{
+background:#E4B64A;
+padding:80px 20px;
+text-align:center;
+}
+
+.hero h1{
+font-family:'Playfair Display', serif;
+font-size:50px;
+margin:0;
+}
+
+.hero p{
+font-size:18px;
+margin-top:10px;
+}
+
+/* MENU */
+
+nav{
+background:#1E1E1E;
+text-align:center;
+padding:15px;
+}
+
+nav a{
+color:white;
+margin:20px;
+text-decoration:none;
+font-weight:500;
+}
+
+/* CONTAINER */
+
+.container{
+max-width:1000px;
+margin:auto;
+background:white;
+padding:40px;
+}
+
+h2{
+font-family:'Playfair Display', serif;
+color:#1E1E1E;
+font-size:36px;
+margin-top:40px;
+border-bottom:3px solid #E4B64A;
+padding-bottom:5px;
+display:block;
+}
+
+/* BOTÃO */
+
+.btn{
+background:#E4B64A;
+padding:12px 25px;
+text-decoration:none;
+color:#1E1E1E;
+font-weight:600;
+border-radius:5px;
+display:inline-block;
+margin-top:15px;
+}
+
+/* MAPA */
+
+iframe{
+width:100%;
+height:350px;
+border:none;
+margin-top:20px;
+}
+
+/* FOOTER */
+
+footer{
+background:#1E1E1E;
+color:white;
+text-align:center;
+padding:25px;
+margin-top:40px;
+}
+
+/* WHATSAPP */
+
+.whatsapp{
+position:fixed;
+bottom:25px;
+right:25px;
+width:65px;
+height:65px;
+border-radius:50%;
+background:#25D366;
+display:flex;
+align-items:center;
+justify-content:center;
+box-shadow:0 4px 12px rgba(0,0,0,0.3);
+animation:pulse 2s infinite;
+}
+
+.whatsapp img{
+width:35px;
+}
+
+@keyframes pulse{
+
+0%{
+transform:scale(1);
+}
+
+50%{
+transform:scale(1.1);
+}
+
+100%{
+transform:scale(1);
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<section class="hero">
+
+<h1>Restaurante Sorelle</h1>
+
+<p>Sabores que conquistam em Simões Filho</p>
+
+</section>
+
+<nav>
+
+<a href="#sobre">Sobre</a>
+<a href="#contato">Contato</a>
+<a href="#localizacao">Localização</a>
+
+</nav>
+
+<div class="container">
+
+<h2 id="sobre">Sobre o Restaurante</h2>
+
+<p>
+O Restaurante Sorelle é um estabelecimento localizado em Simões Filho – Bahia,
+conhecido por oferecer refeições de qualidade e um ambiente acolhedor para seus clientes.
+</p>
+
+<p>
+Com pratos preparados diariamente e atendimento dedicado,
+o restaurante busca proporcionar uma experiência agradável para a comunidade local.
+</p>
+
+<h2>Diferenciais</h2>
+
+<ul>
+<li>Comida caseira de qualidade</li>
+<li>Ambiente acolhedor</li>
+<li>Atendimento familiar</li>
+<li>Localização de fácil acesso</li>
+</ul>
+
+<h2 id="contato">Contato</h2>
+
+<p>
+Entre em contato diretamente pelo WhatsApp comercial.
+</p>
+
+<a class="btn" href="https://wa.me/5571981480202" target="_blank">
+Falar no WhatsApp
+</a>
+
+<h2 id="localizacao">Localização</h2>
+
+<iframe src="https://maps.google.com/maps?q=simões%20filho%20bahia&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+
+</div>
+
+<footer>
+
+<p>Restaurante Sorelle • Simões Filho - BA</p>
+
+</footer>
+
+<a class="whatsapp" href="https://wa.me/5571981480202" target="_blank">
+
+<img src="https://cdn-icons-png.flaticon.com/512/733/733585.png">
+
+</a>
+
+</body>
+</html>
